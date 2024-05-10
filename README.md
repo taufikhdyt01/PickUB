@@ -1,16 +1,21 @@
 # PickUB
 
+This Website...
+
 ## Prerequisites
+
 You will need the following to run PickUB:
-- PHP >= 8.2
-- Composer
-- NPM
-- Database server (MySQL, MariaDB, PostgreSQL, or SQLite)
+
+-   PHP >= 8.2
+-   Composer
+-   NPM
+-   Database server (MySQL, MariaDB, PostgreSQL, or SQLite)
 
 ## Installation
 
 The following steps will guide you through the installation process of PickUB for running in a development environment locally on your machine:
-1. Clone the latest version of PickUB from the repository 
+
+1. Clone the latest version of PickUB from the repository
 2. Run `composer install` to install the required PHP dependencies
 3. Copy the .env.example file to .env and edit the database credentials according to your database server
 4. Run `php artisan key:generate` to generate a new application key
