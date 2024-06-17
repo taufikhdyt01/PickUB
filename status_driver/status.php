@@ -43,7 +43,7 @@ if (!$result) {
 ?>
 
 <?php
-// Sesion untuk mengantisipasi driver yang lupa logout
+// Sesion untuk mengantisipasi driver yang lupalogout
 session_start();
 if (isset($_SESSION["driver_id"])) {
     $id_driver = $_SESSION["driver_id"];
@@ -58,7 +58,7 @@ if (isset($_SESSION["driver_id"])) {
 }
 ?>
 <?php
-// Tampilkan list status driver
+// menampilkan list status driver
 include "koneksi.php";
 $query = "SELECT * FROM drivers";
 $result = mysqli_query($koneksi, $query);
