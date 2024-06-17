@@ -15,7 +15,7 @@ if (isset($_SESSION["driver_id"])) {
 ?>
 
 <?php
-// Tampilkan list status driver
+// Menampilkan list status driver
 include "koneksi.php";
 $query = "SELECT * FROM drivers";
 $result = mysqli_query($koneksi, $query);
@@ -28,7 +28,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 }
 ?>
 <?php
-// Tampilkan profil driver
+// Menampilkan profil driver
 $id_driver = $_GET["id"];
 $query = "SELECT * FROM drivers WHERE id_driver = '$id_driver'";
 $result = mysqli_query($koneksi, $query);
